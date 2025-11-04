@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const VERSION = "1.02";
+const VERSION = "1.03";
 
 export const VersionInfo: React.FC = () => {
   const [creationDate, setCreationDate] = useState('');
