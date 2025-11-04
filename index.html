@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpleJack Floor Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        overscroll-behavior: none;
+      }
+      .glow {
+        filter: drop-shadow(0 0 3px theme('colors.cyan.400')) drop-shadow(0 0 6px theme('colors.cyan.600'));
+      }
+      .glow-text {
+        text-shadow: 0 0 5px theme('colors.cyan.400'), 0 0 10px theme('colors.cyan.600');
+      }
+       /* For webkit-based browsers (Chrome, Safari) */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #083344; /* cyan-950 */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #22d3ee; /* cyan-400 */
+        border-radius: 4px;
+        border: 2px solid #083344; /* cyan-950 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="font-mono dark bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

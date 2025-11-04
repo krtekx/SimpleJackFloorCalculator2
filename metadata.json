@@ -1,0 +1,5 @@
+{
+  "name": "SimpleJack Floor Calculator",
+  "description": "A simple CAD application to design floor plans and calculate tile requirements. Users can draw walls, adjust lengths, and get an estimate of whole, cut, and total tiles needed for the layout.",
+  "requestFramePermissions": []
+}
